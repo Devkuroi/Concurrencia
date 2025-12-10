@@ -1,4 +1,4 @@
-public class Main {
+public class Concurrencia {
     public static void main(String[] args) {
         Contador contador = new Contador();
 
@@ -6,6 +6,7 @@ public class Main {
         Thread hilo1 = new Thread(new Incremento(contador), "Hilo-1");
         Thread hilo2 = new Thread(new Incremento(contador), "Hilo-2");
         Thread hilo3 = new Thread(new Incremento(contador), "Hilo-3");
+
 
         // Iniciar los hilos
         hilo1.start();

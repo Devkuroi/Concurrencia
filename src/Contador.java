@@ -9,7 +9,7 @@ public class Contador {
 
         System.out.println(Thread.currentThread().getName() + " incrementó a: " + valor);
     }
-
+    // obtener valor
     public int getValor() {
         return valor;
     }
